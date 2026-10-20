@@ -15,7 +15,7 @@ export default function Install() {
 
         <div className="install-grid">
           <motion.a
-            href="https://github.com/Flare-Animate/Flare/blob/master/doc/how_to_build_win.md"
+            href="https://github.com/Flare-Animate/Flare/blob/HEAD/docs/how_to_build_win.md"
             target="_blank"
             className="platform-card"
             initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function Install() {
           </motion.a>
 
           <motion.a
-            href="https://github.com/Flare-Animate/Flare/blob/master/doc/how_to_build_macosx.md"
+            href="https://github.com/Flare-Animate/Flare/blob/HEAD/docs/how_to_build_macosx.md"
             target="_blank"
             className="platform-card"
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function Install() {
           </motion.a>
 
           <motion.a
-            href="https://github.com/Flare-Animate/Flare/blob/master/doc/how_to_build_linux.md"
+            href="https://github.com/Flare-Animate/Flare/blob/HEAD/docs/how_to_build_linux.md"
             target="_blank"
             className="platform-card"
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ export default function Install() {
           </motion.a>
 
           <motion.a
-            href="https://github.com/Flare-Animate/Flare/blob/master/doc/how_to_build_bsd.md"
+            href="https://github.com/Flare-Animate/Flare/blob/HEAD/docs/how_to_build_bsd.md"
             target="_blank"
             className="platform-card"
             initial={{ opacity: 0, y: 20 }}

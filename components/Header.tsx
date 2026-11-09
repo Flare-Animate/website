@@ -17,7 +17,8 @@ function Header() {
       {/* Desktop Nav */}
       <nav className="hidden md:flex items-center gap-1.5">
         <a href="#features">Features</a>
-        <a href="#install">Install</a>
+        <a href="#install">Downloads</a>
+        <a href="https://flare-animate.github.io/Flare/" target="_blank" rel="noreferrer">Web version</a>
         <a href="#contribute">Contribute</a>
         <a href="https://github.com/Flare-Animate/Flare" target="_blank" className="cta">GitHub ↗</a>
       </nav>
@@ -37,7 +38,8 @@ function Header() {
       {open && (
         <nav className="mobile-nav">
           <a href="#features" onClick={() => setOpen(false)}>Features</a>
-          <a href="#install" onClick={() => setOpen(false)}>Install</a>
+          <a href="#install" onClick={() => setOpen(false)}>Downloads</a>
+          <a href="https://flare-animate.github.io/Flare/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>Web version</a>
           <a href="#contribute" onClick={() => setOpen(false)}>Contribute</a>
           <a href="https://github.com/Flare-Animate/Flare" target="_blank" className="cta" onClick={() => setOpen(false)}>GitHub ↗</a>
         </nav>

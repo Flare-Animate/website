@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Flare",
-  description: "An Open Source successor to Adobe Animate/Flash.",
+  description: "Flare is an open-source animation editor in active development. Try the web version or explore available desktop builds.",
   icons: [
   { rel: "icon", url: "/favicon.ico" },
   { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },

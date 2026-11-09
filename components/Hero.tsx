@@ -7,15 +7,16 @@ function Hero() {
     <div className="hero relative min-h-[86vh] pt-20 pb-15 px-6 flex items-center justify-center text-center  overflow-hidden">
     {/* <div className="hero-bg absolute inset-0 z-0 "></div> */}
     <div className="hero-content relative z-2 max-w-190 ">
-      <span className="eyebrow fade-in">The Open-Source Adobe Animate Alternative</span>
-      <h1 className="fade-in delay-1">Animate <span className="hl">freely.</span><br/>No <span className="hl2">subscription</span>.</h1>
+      <span className="eyebrow fade-in">Open-source animation editor</span>
+      <h1 className="fade-in delay-1">Animation tools,<br/><span className="hl">built in the open.</span></h1>
       <p className="hero-sub fade-in delay-2">
-        Flare is a <strong>free, open-source</strong> animation tool built for creators who know Adobe Animate — same workflow, same file formats, zero monthly fee.
+        Flare is an animation editor in active development. Try the web version
+        or check the available desktop builds; features and stability may change.
       </p>
       <div className="btn-group fade-in delay-3">
-        <a href="#install" className="btn btn-primary"><IoArrowDownOutline /> Get Flare</a>
-        <a href="https://github.com/Flare-Animate/Flare" target="_blank" className="btn btn-ghost">View on GitHub</a>
-        <a href="#contribute" className="btn btn-orange">Contribute</a>
+        <a href="https://flare-animate.github.io/Flare/" target="_blank" rel="noreferrer" className="btn btn-primary">Try the web version</a>
+        <a href="#install" className="btn btn-ghost"><IoArrowDownOutline /> Desktop downloads</a>
+        <a href="https://github.com/Flare-Animate/Flare" target="_blank" rel="noreferrer" className="btn btn-orange">View on GitHub</a>
       </div>
     </div>
 

@@ -343,7 +343,7 @@ h1 .hl2 {
 
 /* ── MOCKUP WINDOW ── */
 .mockup-wrap {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 60px auto 0;
   padding: 0 24px;
   position: relative;
@@ -354,20 +354,18 @@ h1 .hl2 {
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow:
-    0 40px 80px rgba(0, 0, 0, 0.7),
-    0 0 0 1px rgba(255, 255, 255, 0.04);
-  animation: floatUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.45);
 }
-@keyframes floatUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.app-screenshot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.screenshot-caption {
+  padding: 8px 14px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
 }
 .win-bar {
   background: #2a2a32;
@@ -824,6 +822,67 @@ tbody tr:hover td {
 }
 .code-block .cmd {
   color: #e8f5a8;
+}
+
+.release-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.release-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+}
+.release-option input {
+  accent-color: var(--accent);
+}
+.release-download {
+  min-height: 100px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.release-download p {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+.release-links,
+.build-guide-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+.release-links a,
+.build-guide-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.release-links a:hover,
+.build-guide-links a:hover {
+  text-decoration: underline;
+}
+.build-guides {
+  margin-top: 48px;
+}
+.build-guides h3 {
+  margin: 0 0 8px;
+  color: var(--white);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
+}
+.build-guides p {
+  margin: 0;
+  color: var(--muted);
 }
 
 /* ── CONTRIBUTE ── */
